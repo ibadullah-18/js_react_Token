@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./register.js"></script>
+    <link rel="stylesheet" href="styl.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Register</title>
+</head>
+<body class="w-full min-h-screen h-full">
+   
+    <div class="max-w-[1440px] w-full mx-4">
+        <div class="flex items-center gap-[130px] h-screen">
+            <img src="png/login.png " class="w-[805px] h-[780px]">
+
+            <div class="flex justify-end  justify-top absolute top-3 right-3 border-none rounded-full overflow-hidden">
+                <button id="DarkButton" class="bg-black text-white py-2 px-4 text-xs"></button>
+            </div>
+        <div class="flex flex-col">
+            <h1 class="inter-medium text-[36px]">Create an account</h1>
+            <p class="inter mt-1">Enter your details below</p>
+            <div class="mt-12 flex flex-col">
+                <input id="registerNameInput" type="text" placeholder="Fist Name" class="border-b border-black py-2">
+                <input id="registerLastInput" type="text" placeholder="Last Name" class="border-b border-black py-2">
+                <input id="registerEmailInput" type="email" placeholder="Email" class="border-b border-black py-2">
+                <input id="registerPaswordInput" type="password" placeholder="Password" class="border-b border-black py-2">
+            </div>
+            <button id="registerButton" class="mt-10 bg-[#DB4444] py-4 inter-medium text-white" href="homepage.html">Create Account</button>
+            <a class="block mt-4 inter" href="./Login.html">Already have account?<span class="inter-medium px-3 underline">Login</span></a>
+        </div>
+        </div>
+    </div>
+</body>
+</html> 

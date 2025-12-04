@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./login.js"></script>
+    <link rel="stylesheet" href="styl.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Login</title>
+</head>
+<body id="body" class="w-full  h-full">
+   
+    <div class="max-w-[1440px] w-full mx-4">
+       
+        <div class="flex items-center gap-[130px]  h-screen"> 
+            <img src="png/login.png" class="w-[805px] h-[780px]">
+
+        <div class="flex justify-end  justify-top absolute top-3 right-3 border-none rounded-full overflow-hidden">
+            <button id="darkButton" class="bg-black text-white py-2 px-4 text-xs">
+                
+            </button>
+        </div>
+        <div class="flex flex-col">
+            <h1 class="inter-medium text-[36px]">Login in to Exclusive</h1>
+            <p class="inter mt-1">Enter your details below</p>
+            <div class="mt-12 flex flex-col">
+                <input id="loginEmailInput" type="email" placeholder="Email" class="border-b border-black py-2">
+                <input id="loginPasswordInput" type="password" placeholder="Password" class="border-b border-black py-2">
+            </div>
+            <button id="loginButton"  class="mt-10 bg-[#DB4444] py-4 inter-medium text-white">Login</button>
+            <a class="block mt-4 inter" href="./register.html">Dont have an account?<span class="inter-medium px-3 underline">Register</span></a>
+        </div>
+        </div>
+    </div>
+</body>
+</html> 
